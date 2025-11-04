@@ -1,1 +1,10 @@
 @import "bootstrap";
+
+:root {
+  --btn-hover: #0381f7;
+}
+
+header a:hover {
+  color: var(--btn-hover) !important;
+  border-bottom: solid 2px var(--btn-hover) !important;
+}
