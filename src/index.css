@@ -1,5 +1,9 @@
 @import "bootstrap";
 
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
 :root {
   --btn-primary: #0381f7;
   --dc-primary: #0282f9;
