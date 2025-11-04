@@ -38,7 +38,7 @@ footer {
   background-size: cover;
 }
 
-footer .container {
+footer>.container {
   background-image: url(./assets/img/dc-logo-bg.png);
   background-repeat: no-repeat;
   background-position: 100%;
@@ -53,4 +53,8 @@ footer h4 {
 footer li {
   font-size: 1rem;
   color: grey;
+}
+
+footer .navbar-brand {
+  color: var(--dc-primary)
 }

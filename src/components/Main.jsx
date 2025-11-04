@@ -19,23 +19,23 @@ export default function Main() {
                     <div className="row justify-content-evenly align-items-center py-5">
                         <div className="col-2">
                             <img src={DigitalComicsImg} alt="" width={50} />
-                            <span>DIGITAL COMICS</span>
+                            <span className="mx-2">DIGITAL COMICS</span>
                         </div>
                         <div className="col-2">
                             <img src={MerchandiseImg} alt="" width={50} />
-                            <span>DC MERCHANDISE</span>
+                            <span className="mx-2">DC MERCHANDISE</span>
                         </div>
                         <div className="col-2">
                             <img src={SubscriptionsImg} alt="" width={50} />
-                            <span>SUBSCRIPTION</span>
+                            <span className="mx-2">SUBSCRIPTION</span>
                         </div>
                         <div className="col-2">
                             <img src={ShopLocatorImg} alt="" width={35} />
-                            <span>COMIC SHOP LOCATOR</span>
+                            <span className="mx-2">COMIC SHOP LOCATOR</span>
                         </div>
                         <div className="col-2">
                             <img src={VisaImg} alt="" width={50} />
-                            <span>DC POWER VISA</span>
+                            <span className="mx-2">DC POWER VISA</span>
                         </div>
                     </div>
 
