@@ -30,3 +30,27 @@ header .nav-item>a {
 .col-2 span {
   font-size: 0.8rem;
 }
+
+/* footer */
+
+footer {
+  background-image: url(./assets/img/footer-bg.jpg);
+  background-size: cover;
+}
+
+footer .container {
+  background-image: url(./assets/img/dc-logo-bg.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 55%;
+}
+
+footer h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+footer li {
+  font-size: 1rem;
+  color: grey;
+}
