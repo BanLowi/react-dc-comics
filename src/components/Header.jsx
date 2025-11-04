@@ -4,27 +4,53 @@ export default function Header() {
 
     return (
         <header>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
+            <div className='container'>
 
-                    <img src={logo} alt="" />
+                <nav class="navbar navbar-expand navbar-light d-flex justify-content-between">
 
-                    <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link" href="#">CHARACTERS</a>
-                            <a class="nav-link" href="#">COMICS</a>
-                            <a class="nav-link" href="#">MOVIES</a>
-                            <a class="nav-link" href="#">TV</a>
-                            <a class="nav-link" href="#">GAMES</a>
-                            <a class="nav-link" href="#">COLLECTIBLES</a>
-                            <a class="nav-link" href="#">VIDEOS</a>
-                            <a class="nav-link" href="#">FANS</a>
-                            <a class="nav-link" href="#">NEWS</a>
-                            <a class="nav-link" href="#">SHOP</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+                    <a class="nav-link" href="#">
+                        <img src={logo} alt="" />
+                    </a>
+
+
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ciao</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nav 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ciao</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nav 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ciao</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nav 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ciao</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nav 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ciao</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nav 2</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+
         </header>
+
+
     )
 }
