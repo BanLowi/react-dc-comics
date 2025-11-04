@@ -5,6 +5,8 @@
   --dc-primary: #0282f9;
 }
 
+/* header */
+
 header .navbar {
   padding: 3px;
 }
@@ -17,4 +19,10 @@ header .nav-item>a {
     border-bottom: solid 3px var(--btn-primary);
     margin-bottom: -3px;
   }
+}
+
+/* main */
+
+.col-2 span {
+  font-size: 0.8rem;
 }
