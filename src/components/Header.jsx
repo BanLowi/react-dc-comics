@@ -6,9 +6,9 @@ export default function Header() {
         <header>
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
-                    <a class="navbar-brand" href="#">
-                        <img src={logo} alt="" />
-                    </a>
+
+                    <img src={logo} alt="" />
+
                     <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             <a class="nav-link" href="#">CHARACTERS</a>
