@@ -4,19 +4,26 @@ export default function Header() {
 
     return (
         <header>
-            <img src={logo} alt="" />
-            <nav>
-                <a href="">CHARACTERS</a>
-                <a href="">COMICS</a>
-                <a href="">MOVIES</a>
-                <a href="">TV</a>
-                <a href="">GAMES</a>
-                <a href="">COLLECTIBLES</a>
-                <a href="">VIDEOS</a>
-                <a href="">FANS</a>
-                <a href="">NEWS</a>
-                <a href="">SHOP</a>
-                <a href=""></a>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src={logo} alt="" />
+                    </a>
+                    <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="#">CHARACTERS</a>
+                            <a class="nav-link" href="#">COMICS</a>
+                            <a class="nav-link" href="#">MOVIES</a>
+                            <a class="nav-link" href="#">TV</a>
+                            <a class="nav-link" href="#">GAMES</a>
+                            <a class="nav-link" href="#">COLLECTIBLES</a>
+                            <a class="nav-link" href="#">VIDEOS</a>
+                            <a class="nav-link" href="#">FANS</a>
+                            <a class="nav-link" href="#">NEWS</a>
+                            <a class="nav-link" href="#">SHOP</a>
+                        </div>
+                    </div>
+                </div>
             </nav>
         </header>
     )
