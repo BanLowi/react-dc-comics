@@ -31,6 +31,12 @@ header .nav-item>a {
   font-size: 0.8rem;
 }
 
+#jumbotron {
+  background-image: url(./assets/img/jumbotron.jpg);
+  background-size: cover;
+  height: 40vh;
+}
+
 /* footer */
 
 footer {

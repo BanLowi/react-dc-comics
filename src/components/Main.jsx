@@ -1,12 +1,16 @@
 import BlueBanner from "./Banner";
+import Catalogue from "./Catalogue";
 
 export default function Main() {
 
     return (
         <main>
+            <section id="jumbotron">
+
+            </section>
 
             <section className="bg-dark text-white">
-                <h1 className="container py-5 mb-0">--&gt; Content goes here &lt;--</h1>
+                <Catalogue />
             </section>
 
             <BlueBanner />
