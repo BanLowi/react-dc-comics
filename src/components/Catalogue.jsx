@@ -158,7 +158,8 @@ export default function Catalogue() {
 
     return (
         <div className="container">
-            <div className="row">
+            <p className="bg-primary text-center p-2 position-absolute current_cat">CURRENT SERIES</p>
+            <div className="row py-5">
 
                 {
                     comics.map(comic => (

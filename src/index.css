@@ -50,6 +50,10 @@ header .nav-item>a {
   font-size: 0.8rem;
 }
 
+.current_cat {
+  transform: translateY(-50%);
+}
+
 /* footer */
 
 footer {
