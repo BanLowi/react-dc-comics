@@ -1,7 +1,7 @@
 import logo from '../assets/img/dc-logo.png'
 import NavbarLinks from './NavbarLinks'
 
-export default function Header() {
+export default function Header({ menus }) {
 
 
     return (
@@ -14,7 +14,7 @@ export default function Header() {
                         <img src={logo} alt="" />
                     </a>
 
-                    <NavbarLinks />
+                    <NavbarLinks menus={menus} />
 
                 </nav>
 
