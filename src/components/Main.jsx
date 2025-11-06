@@ -1,7 +1,7 @@
 import BlueBanner from "./Banner";
 import Catalogue from "./Catalogue";
 
-export default function Main() {
+export default function Main({ comics }) {
 
     return (
         <main>
@@ -10,7 +10,7 @@ export default function Main() {
             </section>
 
             <section className="bg-dark text-white">
-                <Catalogue />
+                <Catalogue comics={comics} />
             </section>
 
             <BlueBanner />
